@@ -20,7 +20,7 @@ public class BookController {
 		return new ModelAndView("book/create");
 	}
 	
-	@RequestMapping(value = "/create", method = RequestMethod.GET)
+	@RequestMapping(value = "/create", method = RequestMethod.POST)
 	public ModelAndView createPost (@RequestParam Map<String, Object> map) {
 		ModelAndView mav = new ModelAndView();
 		
