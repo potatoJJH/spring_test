@@ -14,6 +14,5 @@
 		<p>가격 : <input type="text" name="price"></p>
 		<p><input type="submit" value="저장"></p>
 	</form>
-	<h1>commit</h1>
 </body>
 </html>
